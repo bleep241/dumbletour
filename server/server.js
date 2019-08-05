@@ -38,6 +38,7 @@ app.use(passport.session());
 app.use('/auth', authRoutes);
 app.use('/profile', profileRoutes);
 
+
 // Index Page Route Handler
 app.get('/', (req, res) => {
   res.render('./../client/auth-test.ejs');
